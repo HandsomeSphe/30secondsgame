@@ -1,0 +1,31 @@
+.game__card--first{
+    height:30rem;
+    width:20rem;
+    background-color:#BABABA;
+    border-radius: .5rem;
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:4%;
+    left:30%;
+    
+}
+.card__0{
+    &--image{
+    flex:0 0 60%;
+    background-image:url('/Images/dave-hoefler-lsoogGC_5dg-unsplash.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: .5rem .5rem 0 0 ;
+    }
+    &--score{
+        background-color:crimson;
+        display:flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding:0 2rem;
+        flex:0 0 20%
+    }
+}

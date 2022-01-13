@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/main.css">
+    <title>30 Seconds Game</title>
+</head>
+<body>
+        <div class="game_container">
+            <div class="game">
+                <!--/////////////////// LEFT SIDE WITH CARD PANELS
+                ///////////////////////-->
+                <div class="game__cards">
+
+                     <!-- //////////////////
+                          ///// Game Player Panel 1 ////////////-->
+                    <div class="game__card--first active" id="player-0-panel">
+                        <div class="card__0--image"></div>
+                        <!-- This is player 1 score -->
+                        <div class="card__0--score">
+                            <div id="player-0-scoreTilte">SCORE : <span id="player-0-score">34</span> points</div>
+                        </div>
+                        <!-- This is player 1 answering panel -->
+                        <div class="card__0--answer">
+                            <form action="#" class="form-0">
+                                <input class="player-0-answer" type="text" id="answer-0" placeholder="ANSWER">   
+                                <label for="answer-0">Answer</label>                             
+                            </form>
+                            <svg class="submit-0">
+                                <use class="submit-answer-0" xlink:href="./Icons/SVG/sprite.svg#icon-arrow_arrow-left_right_icon-1"></use>
+                            </svg>
+                        </div>
+                    </div>
+                     <!-- //////////////////
+                          ///// Game Player Panel 2 ////////////-->
+                    <div class="game__card--second" id="player-1-panel">
+                        <div class="card__1--image"></div>
+
+                        <!-- This is player 2 score  -->
+                        <div class="card__1--score">
+                            <div id="player-1-scoreTilte">SCORE : <span id="player-1-score">10</span> points</div>
+                        </div>
+
+                        <!-- This is player 2 answering panel -->
+                        <div class="card__1--answer">
+                            <form action="#" class="form-1">
+                                <input class="player-1-answer" type="text" id="answer-1" placeholder="ANSWER">   
+                                <label for="answer-1">Answer</label>                             
+                            </form>
+                            <svg class="submit-1" >
+                                <use class="submit-answer-1" xlink:href="./Icons/SVG/sprite.svg#icon-arrow_arrow-left_right_icon-1"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!--/////////////////// RIGHT SIDE WITH DETAILS ABOUT GAME AND MAIN MENU
+                ///////////////////////-->
+
+                <div class="game__details">
+                      <!-- //////////////////
+                          ///// This is Card Settings ////////////-->
+                    <div class="game__details--settings">
+                        <!-- Going back arrow button -->
+                        <svg class="settings" >
+                            <use xlink:href="./Icons/SVG/sprite.svg#icon-arrow_arrow-left_right_icon-1"></use>
+                        </svg>
+                    </div>
+                    <!-- Timer-->
+                    <div class="game__details--timer"> Time Left <span class="actual-timer"> 00:27 </span></div>
+                    
+                    <!-- This is cards -->
+
+                    <div class="game__details--cards">
+                            <div class="card">
+                                <!-- //////////////////
+                                    ///// This is Card Front Part ////////////-->
+                                <div class="card-title">
+                                    <!-- This is card's clue  -->
+                                    <div class="card-title--heading">
+                                        <div class="title-image">
+                                            <img src="./Shapes/Rectangle 13.png" alt="Rectangle pic">
+                                            <img src="./Shapes/Rectangle 14.png" alt="Rectangle pic">
+                                        </div>
+                                        <div class="clue">King of pop</div>
+                                    </div>
+                                    <!-- This is card points -->
+                                    <div class="card-title--points">This card's points: <span> 27 </span> points</div>
+                                </div>
+                                <!-- //////////////////
+                                    ///// This is Card Back Part ////////////-->
+                                <div class="card-body">lorem ipsum is a dummy text</div>
+                            </div>
+                    <div class="game__details--buttons">
+                        <!-- This is create a random card button -->
+                        <div class="random-btn">
+                            <p class="random-btn-text">Random Card </p>
+                            <span> 
+                                <svg class="random" >
+                                    <use xlink:href="./Icons/SVG/sprite.svg#icon-switchrounded_switch_twirl_arrow_arrows_icon-1"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <!-- This is a skip card button -->
+                        <div class="skip-btn">
+                            <p class="skip-btn-text">Skip </p>
+                            <span> 
+                                <svg class="skip" >
+                                    <use xlink:href="./Icons/SVG/sprite.svg#icon-arrow_next_right_icon-1"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="application.js"></script>
+    
+</body>
+</html>

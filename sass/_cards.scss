@@ -1,0 +1,16 @@
+.game{
+    padding:2rem;
+    display:flex;  
+    &__cards{
+        flex:0 0 60%;
+        background-color:white;
+        height:80vh;
+        width:35rem;
+        position:relative;
+        padding:1.2rem 0;
+    }
+}
+.active{
+    z-index: 10;
+    box-shadow: 0 .4rem 30px rgba(0,0,0,.18);
+}

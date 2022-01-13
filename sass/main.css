@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.game__card--first {
+  height: 30rem;
+  width: 20rem;
+  background-color: #BABABA;
+  border-radius: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 4%;
+  left: 30%;
+}
+
+.card__0--image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  background-image: url("/Images/dave-hoefler-lsoogGC_5dg-unsplash.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: .5rem .5rem 0 0;
+}
+
+.card__0--score {
+  background-color: crimson;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 2rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.game__card--second {
+  height: 25rem;
+  width: 20rem;
+  background-color: #BABABA;
+  border-radius: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 12%;
+  left: 4%;
+  z-index: 1;
+  -webkit-box-shadow: 0 .4rem 30px lightgray;
+          box-shadow: 0 .4rem 30px lightgray;
+}
+
+.card__1--image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  background-image: url("/Images/tom-winckels-I7oLRdM9YIw-unsplash.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: .5rem .5rem 0 0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #636363;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+}
+
+.game_container {
+  width: 60rem;
+  height: 90vh;
+  background-color: white;
+  margin: 2rem auto;
+  border-radius: .1rem;
+}
+
+.random,
+.skip,
+.settings,
+.submit-0,
+.submit-1 {
+  width: 12rem;
+  height: 1rem;
+}
+
+.game {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game__cards {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  background-color: white;
+  height: 80vh;
+  width: 35rem;
+  position: relative;
+  padding: 1.2rem 0;
+}
+
+.active {
+  z-index: 10;
+  -webkit-box-shadow: 0 0.4rem 30px rgba(0, 0, 0, 0.18);
+          box-shadow: 0 0.4rem 30px rgba(0, 0, 0, 0.18);
+}
+/*# sourceMappingURL=main.css.map */
